@@ -1,0 +1,27 @@
+backend:
+[ ] 1 - pop up adicao icone carrinho
+[x] 2 - finalizar pagamento com erro
+[x] 3 - Login Usuario
+[x] 4 - Cadastro CRUD usuario
+[x] 5 - Enviar email no cadastro
+[ ] 6 - Informações dos produtos ao clicar cardapio
+[ ] 7 - buscar por cep
+[ ] 8 - Pedidos feitos
+[ ] 9 - Perfil de usuario
+
+
+frontend:
+[ ] 1 - pop up adicao icone carrinho
+[x] 2 - finalizar pagamento com erro
+[x] 3 - Login Usuario
+[x] 4 - Cadastro CRUD usuario
+[x] 5 - Enviar email no cadastro
+[ ] 6 - Informações dos produtos ao clicar cardapio
+[ ] 7 - buscar por cep
+[ ] 8 - Pedidos feitos
+[x] 9 - Perfil de usuario
+
+
+Usuario
+Sair
+
