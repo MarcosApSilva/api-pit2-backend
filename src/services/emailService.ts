@@ -12,7 +12,8 @@ const transporter = nodemailer.createTransport({
   });
   
 export const sendConfirmationEmail = async (email: string, token: string) => {
-  const url = `http://localhost:5000/auth/verify?token=${token}`;
+  const website = process.env.WEBSITE;
+  const url = `${website}/auth/verify?token=${token}`;
   await transporter.sendMail({
     to: email,
     subject: 'Confirmação de Email',
@@ -22,7 +23,8 @@ export const sendConfirmationEmail = async (email: string, token: string) => {
   
 
 export async function sendEmail2(email: string, token: string) {
-  const url = `http://localhost:5000/auth/verify2?token=${token}`;
+  const website = process.env.WEBSITE;
+  const url = `${website}/auth/verify2?token=${token}`;
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: email,
